@@ -1,0 +1,6 @@
+body { font-family: Arial, sans-serif; background: #222; color: #fff; text-align: center; padding: 20px; }
+#anime-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 15px; margin-top: 20px; }
+.anime-card { background: #333; padding: 10px; border-radius: 8px; cursor: pointer; transition: 0.2s; }
+.anime-card:hover { transform: scale(1.05); }
+.anime-card img { max-width: 100%; border-radius: 5px; }
+.anime-details { display: none; text-align: left; margin-top: 10px; background: #444; padding: 8px; border-radius: 5px; }
